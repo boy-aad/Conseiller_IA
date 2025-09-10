@@ -162,7 +162,10 @@ main {
   width: 30rem;
   height: 16rem;
 }
-
+span {
+  background-color: #f97316;
+  border-radius: 50%;
+}
 /* Solutions Section */
 .solutions {
   display: flex;
@@ -571,6 +574,9 @@ footer {
     .text-solution h2 {
         font-size: 1.5rem;
     }
+    .text-solution p {
+        font-size: 1rem;
+    }
     .list-solution {
         gap: 1rem;
         margin: 0.5rem 0.5rem;
@@ -583,7 +589,10 @@ footer {
         align-items: center;
         text-align: center;
         gap: 0.5rem;
-        padding: 0 0.5rem;
+        padding: 1rem;
+    }
+    .ideas-item p{
+      padding: 0 7rem;
     }
     span {
         display: flex;
