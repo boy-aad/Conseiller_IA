@@ -7,6 +7,10 @@
 
 html {
   scroll-behavior: smooth;
+
+}
+html,body{
+  overflow: hidden;
 }
 
 .header {
@@ -558,7 +562,7 @@ footer {
     }
     .hero {
         font-size: 0.75rem;
-        padding: 1rem;
+        padding: 3rem;
         gap: 1rem;
         height: auto;
     }
